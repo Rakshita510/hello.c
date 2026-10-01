@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-int main() {
-    printf("Hello, World!\n");
-    return 0;
+void greet(const char *name) {
+    printf("Hello, %s! Welcome to our program!\n", name);
 }
+
+int main() {
+    greet("Rakshita");
+    return 0;
+}  
